@@ -1,0 +1,20 @@
+.post {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1em;
+    margin-bottom: 1em;
+    transform: scale(0.9);
+    transition: transform 0.4s;
+}
+
+.post:hover {
+    transform: scale(1);
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+}
+
+.post h2 {
+    margin: 0;
+}

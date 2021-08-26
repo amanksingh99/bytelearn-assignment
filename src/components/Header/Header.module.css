@@ -1,0 +1,36 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btnCreate {
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+}
+
+.btnCreate:hover,
+.btnCreate:focus {
+    background-color: white;
+    color: #333;
+}
+
+.link {
+    color: white;
+    margin-right: 1em;
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+.form {
+    border: 1px solid lightgray;
+    padding: 2em 4em;
+    margin-top: 2em;
+}
+
+.form > * {
+    display: block;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.btnSubmit {
+    margin-top: 1em;
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 0.7em 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}

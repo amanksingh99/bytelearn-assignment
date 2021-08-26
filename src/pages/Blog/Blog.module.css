@@ -1,0 +1,18 @@
+.updateBtn {
+    background-color: greenyellow;
+    border: none;
+    padding: 1em 2em;
+    margin: 1em;
+}
+.cancelBtn {
+    background-color: tomato;
+    border: none;
+    padding: 1em 2em;
+    margin: 1em;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
