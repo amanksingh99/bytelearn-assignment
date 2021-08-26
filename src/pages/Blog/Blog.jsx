@@ -50,7 +50,7 @@ export default function Blog() {
             {loading || !post ? (
                 <h3>Loading...</h3>
             ) : (
-                <div className="container">
+                <div className={`${styles.blogContainer} container`}>
                     <div className={styles.inline}>
                         {editMode ? (
                             <input
@@ -84,6 +84,7 @@ export default function Blog() {
                     {editMode ? (
                         <textarea
                             value={content}
+                            rows="20"
                             onChange={(e) => setContent(e.target.value)}
                         />
                     ) : (
@@ -94,7 +95,7 @@ export default function Blog() {
                             className={styles.updateBtn}
                             onClick={handleSubmit}
                         >
-                            Submit
+                            Update
                         </button>
                     )}
                     {editMode && (

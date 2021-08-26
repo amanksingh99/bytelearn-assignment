@@ -2,17 +2,21 @@
     background-color: greenyellow;
     border: none;
     padding: 1em 2em;
-    margin: 1em;
+    margin: 1em 1em 0;
 }
 .cancelBtn {
     background-color: tomato;
     border: none;
     padding: 1em 2em;
-    margin: 1em;
+    margin: 1em 1em 0;
 }
 
 .inline {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.BlogContainer textarea{
+
 }

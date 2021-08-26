@@ -1,6 +1,8 @@
 import React, { useState, useContext, useEffect } from "react";
 import { useHistory } from "react-router";
 import { UserContext } from "../../Context";
+
+import styles from "./Login.module.css";
 export default function Login() {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
@@ -22,7 +24,11 @@ export default function Login() {
 
     return (
         <main>
-            <form onSubmit={handleSignIn} className="container    ">
+            <h1 style={{textAlign: "center", marginBottom:"2em"}}>Login </h1>
+            <form
+                onSubmit={handleSignIn}
+                className={`container ${styles.loginContainer}`}
+            >
                 <label htmlFor="username">Username</label>
                 <input
                     type="text"
